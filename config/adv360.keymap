@@ -30,11 +30,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                                           &mo MOD &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp GRAVE &kp Q     &kp W    &kp D    &kp F      &kp K  &tog 1                                                                           &tog 3  &kp P  &kp U  &kp R     &kp L    &kp SEMI &kp BSLH
-        &kp TAB   &kp A     &kp S    &kp E    &kp T      &kp G  &tog 2          &kp DEL       &kp HOME             &kp PG_UP &kp RCTRL           &tog 4  &kp Y  &kp N  &kp I     &kp O    &kp H    &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none    &none         &kp END  &none &none &kp PG_DN &none     &none             &kp J  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &mt LCTRL ESC &lt BLUE LGUI        &kp LALT  &kp ENTER &lt BLUE SPACE    &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp EQUAL &kp N1    &kp N2    &kp N3      &kp N4      &kp N5 &tog 1                                                                           &mo MOD &kp N6 &kp N7      &kp N8      &kp N9     &kp N0     &kp MINUS
+        &kp GRAVE &kp Q     &kp W     &kp D       &kp F       &kp K  &tog 1                                                                           &tog 3  &kp P  &kp U       &kp R       &kp L      &kp SEMI   &kp BSLH
+        &kp TAB &hm LGUI A &hm LALT S &hm LCTRL E &hm LSHFT T &kp G  &tog 2          &kp DEL       &kp HOME             &kp PG_UP &kp RCTRL           &tog 4  &kp Y  &hm RSHFT N &hm RCTRL I &hm LALT O &hm RGUI H &kp SQT
+        &kp LSHFT &kp Z     &kp X     &kp C       &kp V       &kp B         &none    &none         &kp END  &none &none &kp PG_DN &none     &none             &kp J  &kp M       &kp COMMA   &kp DOT    &kp FSLH   &kp RSHFT
+        &mo 2     &kp GRAVE &kp CAPS  &kp LEFT    &kp RIGHT                 &kp BSPC &mt LCTRL ESC &kp LGUI             &kp LALT  &kp ENTER &lt BLUE SPACE    &kp UP &kp DOWN    &kp LBKT    &kp RBKT   &mo 2
       >;
     };
     qwerty {
